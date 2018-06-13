@@ -1,0 +1,19 @@
+// Framework
+@import '../../fontawesome/font-awesome.min.css';
+
+// Config
+@import './config/font';
+@import './config/colors';
+
+// Components
+@import './components/body';
+@import './components/navbar';
+@import './components/content';
+@import './components/footer';
+@import './components/login';
+@import './components/a';
+@import './components/signup';
+@import './components/loading';
+@import './components/discord';
+@import './components/scrollbar';
+@import './components/modal';
