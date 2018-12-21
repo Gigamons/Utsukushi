@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import i18n from '../I18n'
-import megumin from '../../assets/images/interface/Megumin.png'
 
+// @ts-ignore
+import megumin from '../../Assets/Images/Interface/Megumin.png'
 
-class SignupPage extends Component {
+class SignupPage extends React.Component {
   render() {
     return (
       <div className="SignupPage">
@@ -27,15 +28,15 @@ class SignupPage extends Component {
                   </div>
                   <form className="signupForm">
                     <div id="signupFormContents">
-                      <input type="text" onkeyup="watcher()(() => CheckAvaiable, 500)" name="username" size="31" maxlength="255" value="" autocomplete="off" placeholder={i18n.t('signup_username')} />
+                      <input type="text" name="username" size={31} value="" placeholder={i18n.t('signup_username')} />
                       <br />
-                      <input type="email" onkeyup="watcher()(() => CheckAvaiable, 500)" name="email" size="31" maxlength="255" value="" autocomplete="off" placeholder={i18n.t('signup_email')} />
+                      <input type="email" name="email" size={31} value="" placeholder={i18n.t('signup_email')} />
                       <br />
-                      <input type="password" name="password" size="31" maxlength="255" value="" autocomplete="off" placeholder={i18n.t('signup_password')} />
+                      <input type="password" name="password" size={31} value="" placeholder={i18n.t('signup_password')} />
                       <br />
-                      <input type="password" name="confirm" size="31" maxlength="255" value="" autocomplete="off" placeholder={i18n.t('signup_confirm')} />
+                      <input type="password" name="confirm" size={31} value="" placeholder={i18n.t('signup_confirm')} />
                       <br />
-                      <input type="button" className="g-recaptcha" data-sitekey="config.GoogleKey" data-callback="signup" name="submit" size="31" value={i18n.t('signup_create_account')} />
+                      <input type="button" className="g-recaptcha" data-sitekey="config.GoogleKey" data-callback="signup" name="submit" size={31} value={i18n.t('signup_create_account')} />
                     </div>
                   </form>
                 </td>

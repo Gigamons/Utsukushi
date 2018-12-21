@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
-import DiscordImage from '../../assets/images/interface/discord.svg'
+import * as React from 'react';
 
-class footbar extends Component {
+// @ts-ignore
+import DiscordImage from '../../Assets/Images/Interface/discord.svg'
+
+class footbar extends React.Component {
   OpenDiscord() {
     return window.open('https://discord.gg/pZBpFjA')
   }

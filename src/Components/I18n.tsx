@@ -1,8 +1,8 @@
 import I18n from 'i18next'
-import XHR from 'i18next-xhr-backend'
-import LDetect from 'i18next-browser-languagedetector'
+import * as XHR from 'i18next-xhr-backend'
+import * as LDetect from 'i18next-browser-languagedetector'
 
-const options = {
+const options: I18n.InitOptions = {
   fallbackLng: 'en',
   load: 'languageOnly',
   debug: true,

@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import i18n from '../I18n'
-import logo from '../../assets/images/interface/logo.png'
 import { Link } from 'react-router-dom'
+
+// @ts-ignore
+import logo from '../../Assets/Images/Interface/logo.png'
 
 // TEMP Variables until i've finished the javascript shit.
 const USERNAME = "TEST"
@@ -18,7 +20,7 @@ const logout = () => {
 
 }
 
-class Navbar extends Component {
+class Navbar extends React.Component {
   Profile() {
     if (IsLoggedIn)
       return (
@@ -77,7 +79,7 @@ class Navbar extends Component {
               <span style={{ display: 'inline-block', fontSize: "50px", position: 'absolute' }}> {/* <i className="fas fa-bullseye"></i> */} <img src={logo} height="60" alt="" /></span>
             </Link>
             <form method="get" action="https://gigamons.de/" id="searchbox">
-              <input type="text" name="q" size="31" maxLength="255" value="" autoComplete="off" placeholder={i18n.t('search')} />
+              <input type="text" name="q" size={31} value="" autoComplete="off" placeholder={i18n.t('search')} />
             </form>
             <div id="leftNav">
               <div id="leftnavlinks">

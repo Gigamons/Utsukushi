@@ -1,22 +1,22 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 
 // Interface
-import Navbar from './interface/navbar'
-import Footbar from './interface/footbar'
+import Navbar from './Interface/Navbar'
+import Footbar from './Interface/Footbar'
+
 // Styling
-import style from '../assets/style/default/index.scss'
+import '../Assets/Styles/Default/index.scss'
 
 // Content
-import News from './content/News'
-import Signup from './content/Signup'
+import News from './Content/News'
+import Signup from './Content/Signup'
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <BrowserRouter >
         <div className="App">
-          <link rel="stylesheet" type="text/css" href={style} />
           <Navbar />
           <div id="container">
             <div id="content" style={{ textAlign: "center" }}>
