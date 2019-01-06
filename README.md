@@ -1,2 +1,0 @@
-# Utsukushi
-Our current frontend.
