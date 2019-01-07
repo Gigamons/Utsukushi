@@ -1,0 +1,43 @@
+welcome_guest: Willkommen gast!
+help: Hilfe
+leaderboard: Rangliste
+beatmaps: Beatmaps
+privacy_disclaimer_header: Wir nutzen deine Daten!
+privacy_disclaimer_text: |
+  Hallo gigamons benutzer, ich will dich nur informieren das
+  wir deine Daten nutzen wenn du unsere website benutzt! wir werden IP, LON, LAT,
+  Country und alle Google ReCapture sachen sammeln. Dies geht auch für unser Bancho!
+  Wir werden IP, LON, LAT, Übertragende Scores, Error reports, Country, Und deine
+  Replays für unser anti-cheat benutzen! Wenn du alle deine daten von unserer datenbank
+  löschen möchtest sende einfach eine DM auf unserem discord! Danke. (Wenn du akzeptieren
+  drückst akzeptierst du das wir deine Daten sammeln und sie nicht verkaufen! Wir
+  nutzen sie für Statistiken und Development. Wir nutzen ausserdem Cookies um deine
+  Nutzer erfahrung zu verbessen, wir speichern in diese "Theme" "Sprache" und weitere
+  sachen. (Ausser google recaptcha zeug. die nutzen noch mehr) Kurzgesagt Wir nutzen
+  deine Daten!
+accept: Akzeptieren
+deny: Nicht Akzeptieren
+dl_switcher: Download Server Switcher
+search: Suche in der Rangliste oder nach Beatmaps...
+messages: Nachichten
+logout: Ausloggen
+signup: Registrieren
+settings: Einstellungen
+signup_prepare: Bereite dich vor...
+signup_description: Du bist fast fertig um auf den "Welt besten osu! server" zu Spielen!
+signup_fun: Registriere dich hier und beginne dein Explosives Abenteuer...
+signup_step_number: Schritt
+signup_step_o: Alles in nur 3 Schritten.
+signup_step_one: Registriere dich indem du dir einen Nutzernamen und ein Kennwort
+  aussuchst. Danach drücke den "Erstelle Account!" knopf und Verifiziere deine E-Mail!
+signup_step_two: Lade unseren Server Switcher herunter und drücke auf den "Switch"
+  Knopf. (Starte osu! neu damit fehler vorgebeugt werden können)
+signup_step_three: Nun logge dich mit deinen account informationen im spiel ein. Viel
+  Spaß dir noch!
+signup_username: Nutzername
+signup_email: E-Mail
+signup_password: Kennwort
+signup_confirm: Wiederhole Kennwort
+signup_create_account: Erstelle Account!
+signup_verification_email_send: Verification email send.
+signup_dont_close: Please don't close this window while you're verifing your email!

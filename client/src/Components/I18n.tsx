@@ -1,6 +1,7 @@
 import I18n from 'i18next'
 import * as XHR from 'i18next-xhr-backend'
 import * as LDetect from 'i18next-browser-languagedetector'
+import { load } from 'js-yaml';
 
 const options: I18n.InitOptions = {
   fallbackLng: 'en',
@@ -8,9 +9,10 @@ const options: I18n.InitOptions = {
   debug: true,
   saveMissing: true,
   backend: {
-    loadPath: '/locales/{{lng}}.json',
+    loadPath: '/locales/{{lng}}.yaml',
     allowMultiLoading: false,
-    crossDomain: false
+    crossDomain: false,
+    parse: load
   },
   interpolation: {
     escapeValue: false,

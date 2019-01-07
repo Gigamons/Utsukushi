@@ -1,0 +1,45 @@
+welcome_guest: Witaj, Gość!
+help: Pomoc
+leaderboard: Tabela wyników
+beatmaps: Beatmapy
+privacy_disclaimer_header: Używamy twoich danych!
+privacy_disclaimer_text:
+  Drogi użytkowniku Gigamons! Chciałem tylko ciebie poinformować
+  o tym że podczas korzystania z naszej strony zbieramy kilka danych o tobie takich
+  jak twoje IP, długości i szerokość geograficzna, kraj, i wszystko związane z google
+  recaptcha! To samo robimy na Bancho! Używamy twojego Adresu IP, długości i szerokości
+  geograficznej, przesłane wyniki, raporty o błędach, kraj, i twoje powtórki! dla
+  naszego antycheat'a! Jeżeli chcesz usunąć twoje dane z naszej bazy danych napisz
+  wiadomość do nas na naszej gildii na discordzie! Dziękujemy. (Kiedy naciśniesz przycisk
+  akceptuj, akceptujesz fakt żee zbieramy twoje dane, nie sprzedajemy ich, używamy
+  ich dla statystyk i rozwoju. Używamy ciasteczek żeby ułatwić zabezpieczanie danych
+  od strony klienta, takich jak "Język strony" "Motyw" itp. Oprócz Google Captcha.)
+  W skrócie, używamy twoich danych!
+accept: Akceptuj
+deny: Odrzuć
+dl_switcher: Pobierz Server Switcher
+search: Szukaj w tabeli wyników i beatmapach...
+messages: Wiadomości
+logout: Wyloguj się
+signup: Zarejestruj się
+settings: Ustawienia
+signup_prepare: Przygotuj się...
+signup_description: Jesteś prawie gotowy, żeby zacząć grać na najbardziej niesamowitym
+  serwerze osu! na świecie...
+signup_fun: Zarejestruj się tutaj i zacznij wybuchową przygodę...
+signup_step_number: Etap
+signup_step_o: Jest to proces trójetapowy...
+signup_step_one: Zarejestruj się z twoją wybraną Nazwą Użytkownika i Hasłem oraz zweryfikuj
+  E-Mail tutaj...
+signup_step_two: Pobierz nasz server switcher i włącz przełącznik (zrestartuj osu!
+  jeżeli miałeś je uruchomione podczas przełączania serwerów.)
+signup_step_three: Zaloguj się w twoim kliencie osu! informacjami, które tutaj podałeś
+  tutaj i baw się dobrze!
+signup_username: Nazwa Użytkownika
+signup_email: E-Mail
+signup_password: Hasło
+signup_confirm: Powtórz Hasło
+signup_create_account: Utwórz konto!
+signup_verification_email_send: Wysłano E-Mail Weryfikacyjny.
+signup_dont_close: Prosimy nie zamykać tego okna podczas kiedy weryfikujesz swojego
+  E-Mail'a!
